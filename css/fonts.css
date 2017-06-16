@@ -1,0 +1,52 @@
+@font-face {
+		font-family: "BebasRegular";
+		src: url("../fonts/BebasRegular/BebasRegular.eot");
+		src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+		url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: "BebasBold";
+		src: url("../fonts/BebasBold/BebasBold.eot");
+		src: url("../fonts/BebasBold/BebasBold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/BebasBold/BebasBold.woff") format("woff"),
+		url("../fonts/BebasBold/BebasBold.ttf") format("truetype");
+		font-style: bold;
+		font-weight: 700;
+}
+
+@font-face {
+		font-family: "HelveticaNeueRoman";
+		src: url("../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.otf");
+		font-style: normal;
+		font-weight: 400;
+}
+
+@font-face {
+		font-family: "HelveticaNeueMedium";
+		src: url("../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.otf");
+		font-style: normal;
+		font-weight: 400;
+}
+
+@font-face {
+		font-family: "HelveticaNeueItalic";
+		src: url("../fonts/HelveticaNeue/HelveticaNeueCyr-Italic.otf");
+		font-style: italic;
+		font-weight: 300;
+}
+
+@font-face {
+		font-family: "HelveticaNeueLight";
+		src: url("../fonts/HelveticaNeue/HelveticaNeueCyr-Light.otf");
+		font-style: normal;
+		font-weight: 300;
+}
+
+@font-face {
+		font-family: "FontAwesome";
+		src: url("../fonts/FontAwesome.otf");
+}

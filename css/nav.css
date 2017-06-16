@@ -1,0 +1,114 @@
+/*RESPONSIVE NAVBAR*/
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 0px 30px;
+    line-height: 78px;
+    font-family: "BebasBold", arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: #b9b9b9;
+    text-transform: uppercase; 
+    line-height: 78px; 
+    vertical-align: middle;
+    cursor: pointer;
+    text-transform: uppercase; 
+    transition: 0.5s; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      font-family: "FontAwesome";
+      content: "\f0c9"; }
+    #nav-trigger span.open {
+      height: 78px;
+      background-color: #e6002d;
+      padding: 0px 10px 0 50%;
+      transition: 0.5s;
+    }
+    #nav-trigger span:hover {
+      background-color: #e6002d; }
+
+nav {
+  margin-bottom: 30px;
+  height: 78px
+}
+
+nav#nav-main {
+  padding: 0; }
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav-main li {
+    display: inline-block; }
+  nav#nav-main li.current a{
+    color: #e8603c; }
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    padding: 0px 30px;
+    font-family: "BebasBold", arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b9b9b9;
+    text-decoration: none;
+    text-transform: uppercase; 
+    line-height: 78px; 
+    vertical-align: middle; 
+    transition: 0.25s; }
+    nav#nav-main a:hover {
+      background-color: #e8603c;
+      color: #fff; }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; 
+  z-index: 99;}
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #e6002d; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #cc0028; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    padding: 10px 30px; 
+    color: #b9b9b9; 
+    font-family: "BebasBold", arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b9b9b9;
+    text-decoration: none;
+    text-transform: uppercase; }
+    nav#nav-mobile a:hover {
+      background-color: #e6002d;
+      color: #fff; }
+
+/*MEDIA QUERIES*/
+@media all and (max-width: 700px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
